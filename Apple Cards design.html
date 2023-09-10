@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple Cards design</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            margin: 15px;
+            padding-top: 30px;
+        }
+
+        body {
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+
+        .content {
+            width: 22%;
+            margin: 15px;
+            box-sizing: border-box;
+            float: left;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            padding-top: 10px;
+            box-shadow: 0 14px 25px rgba(45, 43, 43, 0),
+                0 10px 10px rgb(7, 7, 7);
+            transition: 4s;
+            background: white;
+        }
+
+        .content:hover {
+            box-shadow: 0 3px 6px black 0 10px 10px rgb(7, 7, 7);
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+        }
+
+        h6 {
+            font-size: 30px;
+            text-align: center;
+            color: gray;
+            margin: 20px;
+        }
+
+        .fa {
+            font-size: 26px;
+            transition: 4s;
+            margin: 3px;
+
+        }
+
+        button {
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+            margin-top: 5px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .buy1 {
+            background-color: slategrey;
+        }
+
+        .buy2 {
+            background-color: orangered;
+        }
+
+        .buy3 {
+            background-color: rgb(4, 4, 131);
+        }
+
+        .buy4 {
+            background-color: black;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            /* For mobile phones: */
+            [class*="content"] {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>IPHONE STORE</h1>
+
+    <div class="content">
+        <img src="nui87612w_project.png">
+        <h3>IPhone 14 Pro Max</h3>
+        <h6>₹130000.00</h6>
+        <button class="buy1">Buy Now</button>
+    </div>
+
+    <div class="content">
+        <img
+            src="MQDY3ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO_GEO_IN.jpeg">
+        <h3>Apple Watch Ultra
+        </h3>
+        <h6>₹80000.00</h6>
+        <button class="buy2">Buy Now</button>
+    </div>
+
+
+    <div class="content">
+        <img src="31zUXtO55tL._SY445_SX342_QL70_FMwebp_.jpg">
+        <h3>Apple MacBook Pro
+        </h3>
+        <h6>₹119900.00</h6>
+        <button class="buy3">Buy Now</button>
+    </div>
+
+
+    <div class="content">
+        <img src="MQD83.jpeg">
+        <h3>AirPods Pro
+        </h3>
+        <h6>₹26900.00</h6>
+        <button class="buy4">Buy Now</button>
+    </div>
+
+</body>
+
+</html>
