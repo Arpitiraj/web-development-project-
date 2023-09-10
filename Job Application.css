@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #ccc;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.applt_box{
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+}
